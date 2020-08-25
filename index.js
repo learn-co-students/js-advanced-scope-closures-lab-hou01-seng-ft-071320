@@ -4,10 +4,8 @@ function produceDrivingRange(setRange) {
       switch(true){
         case result < 0:
             return `${Math.abs(result)} blocks out of range`;
-            break;
         case result >= 0:
             return `within range by ${result}`;
-            break;
         }
     };
 }
